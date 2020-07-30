@@ -17,10 +17,12 @@ st.write("## Made by Jayvardhan Rathi with ❤️")
 st.write("### Write the name of a City and select the Temperature Unit and Graph Type from the sidebar")
 
 place=st.text_input("NAME OF THE CITY :", "")
-obs=mgr.weather_at_place(place)
+
 
 if place == None:
     st.write("Input a CITY!")
+
+
 
 unit=st.selectbox("Select Temperature Unit",("Celsius","Fahrenheit"))
 
@@ -137,6 +139,7 @@ def other_weather_updates():
         st.write("### Clear Weather!")
 
 def cloud_and_wind():
+    obs=mgr.weather_at_place(place)
     weather=obs.weather
     cloud_cov=weather.clouds
     winds=weather.wind()['speed']
@@ -145,6 +148,7 @@ def cloud_and_wind():
     st.write('### The current wind speed for',place, 'is',winds,'mph')
 
 def sunrise_and_sunset():
+    obs=mgr.weather_at_place(place)
     weather=obs.weather
     st.title("Sunrise and Sunset Times :")
     india = pytz.timezone("Asia/Kolkata")
@@ -153,19 +157,22 @@ def sunrise_and_sunset():
     st.write("### Sunrise time in",place,"is",sr)
     st.write("### Sunset time in",place,"is",ss)
 
-if __name__ == '__main__':
-    #init_plot()
-    if st.button("SUBMIT"):
+def updates():
+    other_weather_updates()
+    cloud_and_wind()
+    sunrise_and_sunset()
 
+
+if __name__ == '__main__':
+    
+    if st.button("SUBMIT"):
         if g_type == 'Line Graph':
-            draw_line_chart()
+            draw_line_chart()    
         else:
             draw_bar_chart()
-        other_weather_updates()
-        cloud_and_wind()
-        sunrise_and_sunset()
-    else:
-        st.title(" INVALID INPUT !")
+        updates()
+        
+    
         
         
     
