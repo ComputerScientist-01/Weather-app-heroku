@@ -3,7 +3,6 @@ import pytz
 import pyowm
 import streamlit as st
 from matplotlib import dates
-from tabulate import tabulate
 from datetime import datetime
 from matplotlib import pyplot as plt
 
