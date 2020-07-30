@@ -1,0 +1,5 @@
+streamlit==0.63.1
+matplotlib==3.2.2
+numpy==1.18.5
+DateTime==4.3
+pyowm==3.0.0
