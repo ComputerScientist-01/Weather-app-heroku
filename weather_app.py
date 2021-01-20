@@ -5,6 +5,8 @@ import streamlit as st
 from matplotlib import dates
 from datetime import datetime
 from matplotlib import pyplot as plt
+import plotly.graph_objects as go
+import plotly.express as px
 
 owm=pyowm.OWM('0833f103dc7c2924da06db624f74565c')
 mgr=owm.weather_manager()
@@ -71,11 +73,15 @@ def plot_temperatures(days, temp_min, temp_max):
     bar_max = plt.bar(days+.25, temp_max, width=0.5, color='#e58510')
     return (bar_min, bar_max)
 
+
 def plot_temperatures_line(days, temp_min, temp_max):
-    days = dates.date2num(days)
-    bar_min = plt.plot(days, temp_min)
-    bar_max = plt.plot(days, temp_max)
-    return (bar_min, bar_max)
+    bar_min = px.line(x=days, y=temp_min)
+    bar_max = px.line(x=days, y=temp_max)
+
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(x=days, y=temp_min, name='minimum temperatures'))
+    fig.add_trace(go.Scatter(x=days, y=temp_max, name='maximimum temperatures'))
+    return fig
 
 def label_xaxis(days):
     plt.xticks(days)
@@ -111,9 +117,8 @@ def draw_bar_chart():
 
 def draw_line_chart():
     days, temp_min, temp_max = get_temperature()
-    bar_min, bar_max = plot_temperatures_line(days, temp_min, temp_max)
-    label_xaxis(days)
-    st.pyplot()
+    fig = plot_temperatures_line(days, temp_min, temp_max)
+    st.plotly_chart(fig)
     st.title("Minimum and Maximum Temperatures")
     for i in range (0,5):
         st.write("### ",temp_min[i],degree_sign,' --- ',temp_max[i],degree_sign)
@@ -171,9 +176,3 @@ if __name__ == '__main__':
         else:
             draw_bar_chart()
         updates()
-        
-    
-        
-        
-    
-    
