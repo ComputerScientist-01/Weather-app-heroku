@@ -1,14 +1,76 @@
-# Weather-app-heroku
-The weather app built using Streamlit and PyOWM deployed using Heroku 
-
-# It's live !
-https://jayvardhan-weather-app.herokuapp.com/
-
 <p align="center">
-<img src="https://img.shields.io/github/forks/ComputerScientist-01/Weather-app-heroku"/>
-<img src="https://img.shields.io/github/stars/ComputerScientist-01/Weather-app-heroku"/>
-<img src="https://img.shields.io/github/issues-pr-closed/ComputerScientist-01/Weather-app-heroku"/>
-<img src="https://img.shields.io/github/languages/count/ComputerScientist-01/Weather-app-heroku"/>
-<img src="https://img.shields.io/github/languages/top/ComputerScientist-01/Weather-app-heroku"/>
-<img src="https://img.shields.io/github/repo-size/ComputerScientist-01/Weather-app-heroku"/>
+    <a href="https://jayvardhanrathi.tech">
+	<img src="https://user-images.githubusercontent.com/39644109/110592126-e6fc2700-819f-11eb-9ca5-8827418963c7.png" width=80%/>
+</a>
+    
+<h2 align="center">Weather app heroku</h2>
+<h4 align="center">A web application to display weather updates<h4>
+
 </p>
+
+---
+
+Its live - [Weather-App](https://jayvardhan-weather-app.herokuapp.com/)
+
+
+
+---
+
+## :fire: Features
+
+- 5 day weather forecast
+- Impending Weather changes
+- Weather Graph
+- Sunrise and sunset times
+- CLoud Coverage
+- Wind Speed
+
+---
+
+## :bulb: Built Using
+
+- Python
+- Streamlit
+- Plotly
+- Python Open Weather Map API
+
+---
+
+## :iphone: Screenshots
+
+|                                   |                                   |
+| --------------------------------- | --------------------------------- |
+| <img src="images/"  width="300"/> | <img src="images/"  width="300"/> |
+| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
+| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
+| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
+| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
+
+---
+
+## Instructions to run
+Git clone this repository.
+
+```terminal pip install -r requirements.txt ```
+
+*This installs all the dependencies on your computer using the cmd.*
+
+```terminal python app.py```
+
+*now your app is up and running*
+
+## :heart: Found this project interesting?
+
+<br>
+
+## If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
+
+<br>
+<!-- CONTACT -->
+
+## :man: Project Created & Maintained By -
+
+- **Hey guys, I'm Jayvardhan. Find out more about me** [ here](https://linkedin.com/in/rathi406)
+- **Reach out to me at** [rathi406@gmail.com](rathi406@gmail.com)
+
+<h3 align="right">Built with :heart: by Jayvardhan Rathi</h3>
