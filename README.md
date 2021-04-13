@@ -12,8 +12,6 @@
 
 Its live - [Weather-App](https://jayvardhan-weather-app.herokuapp.com/)
 
-
-
 ---
 
 ## :fire: Features
@@ -38,26 +36,25 @@ Its live - [Weather-App](https://jayvardhan-weather-app.herokuapp.com/)
 
 ## :iphone: Screenshots
 
-|                                   |                                   |
-| --------------------------------- | --------------------------------- |
-| <img src="images/"  width="300"/> | <img src="images/"  width="300"/> |
-| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
-| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
-| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
-| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
+|                                        |                                        |
+| -------------------------------------- | -------------------------------------- |
+| <img src="images/1.png"  width="300"/> | <img src="images/2.png"  width="300"/> |
+| <img src="images/3.png" width="300"/>  | <img src="images/3.png" width="300"/>  |
+| <img src="images/5.png" width="300"/>  | <img src="images/6.png" width="300"/>  |
 
 ---
 
 ## Instructions to run
+
 Git clone this repository.
 
-```terminal pip install -r requirements.txt ```
+`terminal pip install -r requirements.txt `
 
-*This installs all the dependencies on your computer using the cmd.*
+_This installs all the dependencies on your computer using the cmd._
 
-```terminal python app.py```
+`terminal python app.py`
 
-*now your app is up and running*
+_now your app is up and running_
 
 ## :heart: Found this project interesting?
 
