@@ -50,19 +50,24 @@ Git clone this repository.
 
 `terminal pip install -r requirements.txt `
 
-_This installs all the dependencies on your computer using the cmd._
+_This installs all the dependencies on your computer using the terminal 
 
-`terminal python app.py`
+`python app.py`
 
 _now your app is up and running_
 
+---
+
+## Contributing
+
+If you'd like to contribute, please fork the repository and make changes as
+you'd like. Pull requests are warmly welcome. Thanks alot
+
 ## :heart: Found this project interesting?
 
-<br>
+If you found this project useful, then please consider giving it a :star: on Github 
+and sharing it with your friends via social media.
 
-## If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
-
-<br>
 <!-- CONTACT -->
 
 ## :man: Project Created & Maintained By -
