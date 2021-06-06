@@ -7,8 +7,10 @@ from datetime import datetime
 from matplotlib import pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
+from boto.s3.connection import S3Connection
+s3 = S3Connection(os.environ['S3_KEY'])
 
-owm=pyowm.OWM('0833f103dc7c2924da06db624f74565c')
+owm=pyowm.OWM(s3)
 mgr=owm.weather_manager()
 
 degree_sign= u'\N{DEGREE SIGN}'
