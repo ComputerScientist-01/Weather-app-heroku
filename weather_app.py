@@ -7,9 +7,7 @@ from datetime import datetime
 from matplotlib import pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
-from boto.s3.connection import S3Connection
-#Now, upon deploying to Heroku, the app will use the keys set in the config.
-s3 = S3Connection(os.environ['API_KEY'])
+
 
 API_KEY = os.environ['API_KEY']
 owm = pyowm.OWM(API_KEY)
