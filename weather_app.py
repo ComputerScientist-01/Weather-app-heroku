@@ -8,7 +8,7 @@ from matplotlib import pyplot as plt
 import plotly.graph_objects as go
 import plotly.express as px
 from boto.s3.connection import S3Connection
-s3 = S3Connection(os.environ['S3_KEY'])
+s3 = S3Connection(os.environ['KEY'])
 
 owm=pyowm.OWM(s3)
 mgr=owm.weather_manager()
