@@ -4,3 +4,4 @@ numpy==1.18.5
 DateTime==4.3
 pyowm==3.0.0
 plotly==4.14.3
+boto
