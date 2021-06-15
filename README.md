@@ -10,7 +10,7 @@
 
 ---
 
-Its live - [Weather-App](https://jayvardhan-weather-app.herokuapp.com/)
+## Demo - [Weather-App](https://jayvardhan-weather-app.herokuapp.com/)
 
 ---
 
@@ -48,25 +48,35 @@ Its live - [Weather-App](https://jayvardhan-weather-app.herokuapp.com/)
 
 Git clone this repository.
 
-`terminal pip install -r requirements.txt `
+```pip install -r requirements.txt ```
 
-_This installs all the dependencies on your computer using the terminal 
+This installs all the dependencies on your computer using the terminal 
 
-`python app.py`
+```python app.py```
 
 _now your app is up and running_
 
 ---
+<!-- LICENSE -->  
 
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information. 
+
+---
+
+<!-- CONTRIBUTING -->
 ## Contributing
 
-If you'd like to contribute, please fork the repository and make changes as
-you'd like. Pull requests are warmly welcome. Thanks alot
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## :heart: Found this project interesting?
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request  
 
-If you found this project useful, then please consider giving it a :star: on Github 
-and sharing it with your friends via social media.
+---
 
 <!-- CONTACT -->
 
