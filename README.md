@@ -8,11 +8,8 @@
 
 </p>
 
----
+<h2 align="center"><a href="https://jayvardhan-weather-app.herokuapp.com/">Demo link</a> <a href="https://www.crio.do/projects/python-weather-app"/>Tutorial link</a></h2>
 
-## Demo - [Weather-App](https://jayvardhan-weather-app.herokuapp.com/)
-
----
 
 ## :fire: Features
 
@@ -23,8 +20,6 @@
 - CLoud Coverage
 - Wind Speed
 
----
-
 ## :bulb: Built Using
 
 - Python
@@ -32,7 +27,6 @@
 - Plotly
 - Python Open Weather Map API
 
----
 
 ## :iphone: Screenshots
 
@@ -42,7 +36,7 @@
 | <img src="images/3.png" width="300"/>  | <img src="images/4.png" width="300"/>  |
 | <img src="images/5.png" width="300"/>  | <img src="images/6.png" width="300"/>  |
 
----
+
 
 ## Instructions to run
 
@@ -56,14 +50,12 @@ This installs all the dependencies on your computer using the terminal
 
 _now your app is up and running_
 
----
 <!-- LICENSE -->  
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information. 
 
----
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -76,7 +68,6 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request  
 
----
 
 <!-- CONTACT -->
 
